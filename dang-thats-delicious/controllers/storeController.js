@@ -1,5 +1,5 @@
 exports.homePage = (req, res) => {
-        res.render(`index`);
+        res.render('index', { title: 'I love food!' });
 };
 
 exports.addStore = (req, res) => {
